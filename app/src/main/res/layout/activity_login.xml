@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    android:id="@+id/myCoordinatorLayout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/colorPrimary"
+    android:layout_height="match_parent"
+    tools:context="com.whitemediapro.jelp.LoginActivity">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/colorPrimary"
+    android:layout_height="match_parent"
+    tools:context="com.whitemediapro.jelp.LoginActivity">
+
+        <ProgressBar
+            android:layout_width="40dp"
+            android:id="@+id/progressbar1"
+            android:visibility="gone"
+            style="@style/AlertDialog.AppCompat.Light"
+            android:layout_height="40dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:layout_marginTop="20dp"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimaryDark"
+            android:id="@+id/loginTextLabel"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="25dp"
+            android:text="@string/register_login"
+            android:textSize="19sp" />
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="80dp"
+            android:id="@+id/jelpor"
+            android:layout_height="100dp"
+            android:src="@drawable/swelper" />
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="@drawable/icon_background"
+            android:layout_below="@+id/jelpor"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="27dp"
+            android:padding="16dp"
+            android:src="@drawable/login_mail"
+            android:id="@+id/mail_login" />
+
+        <ImageView
+            android:id="@+id/phone_lgn"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_alignStart="@+id/loginTextLabel"
+            android:layout_alignTop="@+id/mail_login"
+            android:layout_marginStart="19dp"
+            android:layout_marginTop="27dp"
+            android:background="@drawable/icon_background"
+            android:src="@drawable/login_phone" />
+
+        <ImageView
+            android:id="@+id/fcbk_login"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_alignTop="@+id/phone_lgn"
+            android:layout_marginStart="26dp"
+            android:layout_toEndOf="@+id/jelpor"
+            android:background="@drawable/icon_background"
+            android:src="@drawable/login_fcbk" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:visibility="invisible"
+            android:id="@+id/login_frame"
+            android:padding="16dp"
+            android:background="@color/clear"
+            android:layout_marginTop="350dp"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:hint="@string/email"
+                android:inputType="textEmailAddress"
+                android:textColor="@color/colorPrimary"
+                android:id="@+id/Edlogin_username"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:layout_width="match_parent"
+                android:hint="@string/password_login"
+                android:inputType="textPassword"
+                android:textColor="@color/colorPrimary"
+                android:id="@+id/Edlogin_pass1"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:layout_width="90dp"
+                android:id="@+id/login_btn"
+                android:padding="16dp"
+                app:srcCompat="@drawable/login_svg"
+                android:layout_height="90dp" />
+            <ImageView
+                android:layout_width="90dp"
+                android:id="@+id/reg_btn"
+                app:srcCompat="@drawable/ic_account_plus_outline"
+                android:padding="16dp"
+                android:layout_height="90dp" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+</android.support.v4.widget.NestedScrollView>
+</android.support.design.widget.CoordinatorLayout>

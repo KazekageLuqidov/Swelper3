@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Swelper</string>
+    <string name="company_string">WhiteMediaPRO</string>
+    <string name="register_login">Register/Login</string>
+    <string name="email">Email</string>
+    <string name="password_login">Password</string>
+    <string name="snack_regtxt"> Registration Successful</string>
+    <string name="password_again">Password Again!</string>
+    <string name="login_btn">LOGIN</string>
+    <string name="register_text">REGISTER</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="facebook_app_id">343065969564357</string>
+    <string name="fb_login_protocol_scheme">fb343065969564357</string>
+    <string name="tab_text_1">Nearby</string>
+    <string name="tab_text_2">Questions</string>
+    <string name="tab_text_3"> Chats </string>
+    <string name="nearby">Nearby</string>
+    <string name="chats">Chats</string>
+    <string name="a_a">Asked and Answered</string>
+    <string name="action_notify">Notifications</string>
+    <string name="action_trending">Trending</string>
+    <string name="phone_txt">Enter Your Phone Number to Continue Registration</string>
+    <string name="enter_phone_no">Enter Phone no:</string>
+    <string name="ver_phonetxt">A verification code would be sent to the number provided. Standard charges may apply</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="type_msg">Type A Message</string>
+</resources>

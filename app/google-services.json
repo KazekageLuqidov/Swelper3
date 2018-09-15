@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "693554492204",
+    "firebase_url": "https://jelp-ede02.firebaseio.com",
+    "project_id": "jelp-ede02",
+    "storage_bucket": "jelp-ede02.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:693554492204:android:4411255f33e0534d",
+        "android_client_info": {
+          "package_name": "com.whitemediapro.jelp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "693554492204-k8ioglgi687eihjvjt51vilms182fups.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxXRoNO1BOJclEFt1i-U-kMMvczHdSgj4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
